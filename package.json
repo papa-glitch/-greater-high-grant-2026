@@ -1,0 +1,13 @@
+{
+  "name": "greater-high-grant-2026",
+  "version": "1.0.0",
+  "description": "Greater High Grant 2026 application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
