@@ -1,0 +1,1 @@
+document.getElementById('form').addEventListener('submit',function(e){e.preventDefault();const msg=document.getElementById('message');const ref='GHG2026-'+Math.random().toString(36).slice(2,8).toUpperCase();msg.textContent='Application received. Your reference number is '+ref+'. Please save it for your records.';this.reset();});
